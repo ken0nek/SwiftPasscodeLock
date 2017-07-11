@@ -9,7 +9,7 @@
 import Foundation
 
 public protocol PasscodeLockConfigurationType {
-    
+
     var repository: PasscodeRepositoryType {get}
     var passcodeLength: Int {get}
     var isTouchIDAllowed: Bool {get set}
